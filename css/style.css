@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap:400,500,600,700");
+
+/*-------------------------------Band Name/Logo-------------------------------*/
+
+.main-header {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#header-small {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+}
+
+#header-large {
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+}
+
+/*-------------------------------General-------------------------------*/
+
+.clearit {
+    margin: 0;
+    padding: 0;
+}
+
+/*test*/
+.shadow-bg {
+    background-color: rgba(0,0,0,0.2);
+}
+
+/*test*/
+body {
+    background-color: grey;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------Main Image-------------------------------*/
+
+.band-image {
+    background: url("../assets/images/hlh main.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+/*-------------------------------Media Queries-------------------------------*/
+
+@media (min-width: 768px) {
+    .navbar {    
+    position: relative;
+     }
+    }
