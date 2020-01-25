@@ -33,12 +33,6 @@
     border: none;
 }
 
-.nav-item-style {
-    font-size: 20px;
-    padding-left: 1vw;
-    padding-right: 1vw;
-}
-
 /*-------------------------------General-------------------------------*/
 
 .clearit {
@@ -56,6 +50,10 @@
     width: inherit;
     padding: 0;
     margin: 0;
+}
+
+.center-text {
+    text-align: center;
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
@@ -109,6 +107,30 @@
     width: 100%;
 }
 
+.social-link {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------Media Queries-------------------------------*/
 
@@ -125,6 +147,11 @@
     .band-container {
     margin-top: 0;
      }
+    .nav-item-style {
+    font-size: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
     }
 
 /*-------------------------------Keyframes-------------------------------*/
