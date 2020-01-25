@@ -11,6 +11,7 @@
 #header-small {
     font-family: "Anton", sans-serif;
     font-size: 20px;
+    margin: 0 2px 0 2px;
 }
 
 #header-large {
@@ -55,13 +56,25 @@
 
 /*-------------------------------Main Image-------------------------------*/
 
+.band-container {
+    margin-top: 50px;
+    max-height: 90vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .band-image {
     background: url("../assets/images/hlh main.jpg");
-    margin-top: 30px;
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+     -webkit-animation: zoom-in 2.5s;
+    animation: zoom-in 2.5s;
+    -webkit-transform: scale(1.025,1.025); 
+    transform: scale(1.025,1.025);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 
@@ -75,7 +88,7 @@
     .navbar {    
     position: relative;
      }
-    .band-image {    
+    .band-container {    
     height: 85vh;
      }
     #header-small {
@@ -84,10 +97,29 @@
     #header-large {
     font-size: 80px;
      }
-    .band-image {
+    .band-container {
     margin-top: 0;
      }
     }
 
+/*-------------------------------Keyframes-------------------------------*/
+
+@keyframes zoom-in {
+    from {
+        transform: scale(1,1); 
+    }
+    to {
+        transform: scale(1.025,1.025);
+    }
+}   
+
+@-webkit-keyframes zoom-in {
+    from {
+        transform: scale(1,1); 
+    }
+    to {
+        transform: scale(1.025,1.025);
+    }
+} 
 
     
