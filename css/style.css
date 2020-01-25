@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton&display=swap:400,500,600,700");
 
-/*-------------------------------Band Name/Logo-------------------------------*/
+/*-------------------------------Band Name/Nav-------------------------------*/
 
 .main-header {
     padding: 0;
@@ -10,12 +10,26 @@
 
 #header-small {
     font-family: "Anton", sans-serif;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 #header-large {
     font-family: "Anton", sans-serif;
-    font-size: 80px;
+    margin-top: .5rem;
+}
+
+.band-home-link {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.band-home-link:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.navbar .navbar-toggler {
+    border: none;
 }
 
 /*-------------------------------General-------------------------------*/
@@ -25,29 +39,29 @@
     padding: 0;
 }
 
-/*test*/
-.shadow-bg {
-    background-color: rgba(0,0,0,0.2);
-}
-
-/*test*/
-body {
-    background-color: grey;
-}
-
 .uppercase {
     text-transform: uppercase;
+}
+
+/*-------------------------------Backgrounds-------------------------------*/
+
+.bg-gold {
+    background-color: #866e39;
+}
+
+.bg-grey {
+    background-color: #7c7b7b;
 }
 
 /*-------------------------------Main Image-------------------------------*/
 
 .band-image {
     background: url("../assets/images/hlh main.jpg");
-    height: 100vh;
+    margin-top: 30px;
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
@@ -61,4 +75,19 @@ body {
     .navbar {    
     position: relative;
      }
+    .band-image {    
+    height: 85vh;
+     }
+    #header-small {
+    font-size: 50px;
+     }
+    #header-large {
+    font-size: 80px;
+     }
+    .band-image {
+    margin-top: 0;
+     }
     }
+
+
+    
