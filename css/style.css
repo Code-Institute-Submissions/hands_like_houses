@@ -33,6 +33,12 @@
     border: none;
 }
 
+.nav-item-style {
+    font-size: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
 /*-------------------------------General-------------------------------*/
 
 .clearit {
@@ -42,6 +48,14 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,.5);
+    height: inherit;
+    width: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
@@ -54,12 +68,23 @@
     background-color: #7c7b7b;
 }
 
+.bg.trans {
+    background-color: transparent;
+}
+
+.bg-concrete {
+    background: url("../assets/images/bg texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
 /*-------------------------------Main Image-------------------------------*/
 
 .band-container {
-    margin-top: 50px;
-    max-height: 90vh;
-    max-width: 100%;
+    margin-top: 60px;
+    height: 90vh;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -77,9 +102,12 @@
     animation-fill-mode: forwards;
 }
 
+/*-------------------------------Footer-------------------------------*/
 
-
-
+.footer-container {
+    height: 120px;
+    width: 100%;
+}
 
 
 /*-------------------------------Media Queries-------------------------------*/
@@ -87,9 +115,6 @@
 @media (min-width: 768px) {
     .navbar {    
     position: relative;
-     }
-    .band-container {    
-    height: 85vh;
      }
     #header-small {
     font-size: 50px;
