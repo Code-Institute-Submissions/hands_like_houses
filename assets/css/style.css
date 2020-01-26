@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anton&display=swap:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap:400,500,600,700");
 
 /*-------------------------------Band Name/Nav-------------------------------*/
 
@@ -15,7 +15,7 @@
 }
 
 #header-large {
-    font-family: "Anton", sans-serif;
+    font-family: "Anton", auto;
     margin-top: .5rem;
 }
 
@@ -34,6 +34,10 @@
 }
 
 /*-------------------------------General-------------------------------*/
+
+body {
+    font-family: roboto, sans-serif;
+}
 
 .clearit {
     margin: 0;
@@ -56,6 +60,10 @@
     text-align: center;
 }
 
+.text-white {
+    color: #fafafa;
+}
+
 /*-------------------------------Backgrounds-------------------------------*/
 
 .bg-gold {
@@ -71,7 +79,7 @@
 }
 
 .bg-concrete {
-    background: url("../assets/images/bg texture.jpg");
+    background: url("../images/bg texture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -87,32 +95,71 @@
 }
 
 .band-image {
-    background: url("../assets/images/hlh main.jpg");
+    background: url("../images/hlh main.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-     -webkit-animation: zoom-in 2.5s;
+    -webkit-animation: zoom-in 2.5s;
+    -moz-animation: zoom-in 2.5s;
     animation: zoom-in 2.5s;
     -webkit-transform: scale(1.025,1.025); 
+    -moz-transform: scale(1.025,1.025); 
     transform: scale(1.025,1.025);
     -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 /*-------------------------------Footer-------------------------------*/
 
 .footer-container {
-    height: 120px;
+    min-height: 120px;
     width: 100%;
 }
 
-.social-link {
-    display: inline-block;
+.footer-heading {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
 }
 
+.media-links {
+    margin-bottom: 5px;
+}
 
+.media-links li a i {
+    color: #fafafa;
+    background-color: #6d5a31;
+    padding: 6px;
+    border: 1px solid #6d5a31;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    margin-bottom: 12px
+}
 
+.media-links li a i:hover {
+    background-color: #3e3a20;
+    transform: scale(1.5,1.5);
+}
+
+.mail-list-input {
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 7px;
+}
+
+.mail-list-btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #6d5a31;
+    background-color: #6d5a31;
+    color: #fafafa;
+    box-shadow: 1px 1px 1px #292727;
+    margin-bottom: 18px;
+}
 
 
 
@@ -151,8 +198,14 @@
     font-size: 20px;
     padding-left: 1vw;
     padding-right: 1vw;
-}
     }
+    .footer-heading {
+    font-size: 20px;
+    }
+    .mail-list-input {
+    width: 250px;
+    }
+     }
 
 /*-------------------------------Keyframes-------------------------------*/
 
@@ -174,4 +227,11 @@
     }
 } 
 
-    
+@-moz-keyframes zoom-in {
+    from {
+        transform: scale(1,1); 
+    }
+    to {
+        transform: scale(1.025,1.025);
+    }
+} 
