@@ -33,6 +33,11 @@
     border: none;
 }
 
+.nav-spacer {
+    height: 65px;
+    width: 100%;
+}
+
 /*-------------------------------General-------------------------------*/
 
 body {
@@ -50,6 +55,14 @@ body {
 
 .overlay {
     background-color: rgba(0,0,0,.5);
+    height: inherit;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.gold-overlay {
+    background-color: rgba(134, 110, 57, 0.2);
     height: inherit;
     width: inherit;
     padding: 0;
@@ -85,10 +98,16 @@ body {
     background-attachment: scroll;
 }
 
-/*-------------------------------Main Image-------------------------------*/
+.bg-concrete-fixed {
+    background: url("../images/bg texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-------------------------------Main Image section-------------------------------*/
 
 .band-container {
-    margin-top: 60px;
     height: 90vh;
     width: 100%;
     overflow: hidden;
@@ -109,6 +128,27 @@ body {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+/*-------------------------------Latest music video section-------------------------------*/
+
+.latest-video-title {
+    padding: 30px 10px 10px 10px;
+}
+
+.video-container {
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
 }
 
 /*-------------------------------Footer-------------------------------*/
@@ -191,9 +231,6 @@ body {
     #header-large {
     font-size: 80px;
      }
-    .band-container {
-    margin-top: 0;
-     }
     .nav-item-style {
     font-size: 20px;
     padding-left: 1vw;
@@ -205,6 +242,9 @@ body {
     .mail-list-input {
     width: 250px;
     }
+    .nav-spacer {
+    height: 0;
+}
      }
 
 /*-------------------------------Keyframes-------------------------------*/
