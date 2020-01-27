@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Permanent+Marker&display=swap:400,500,600,700");
 
 /*-------------------------------Band Name/Nav-------------------------------*/
 
@@ -62,7 +62,8 @@ body {
 }
 
 .gold-overlay {
-    background-color: rgba(134, 110, 57, 0.2);
+    background-color: rgba(134, 110, 57, 0.2
+    );
     height: inherit;
     width: inherit;
     padding: 0;
@@ -75,6 +76,13 @@ body {
 
 .text-white {
     color: #fafafa;
+}
+
+.section-title {
+    padding: 4vh 0vw 2vh 0vw;
+    font-weight: 800;
+    font-size: 4.7vw;
+    font-family: "Permanent Marker"
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
@@ -132,23 +140,26 @@ body {
 
 /*-------------------------------Latest music video section-------------------------------*/
 
-.latest-video-title {
-    padding: 30px 10px 10px 10px;
-}
-
 .video-container {
-    height: 50vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 52vw;
 }
 
 .video-container iframe {
-    width: 70%;
+    width: 100%;
     display: block;
-    margin: auto;
-    padding: 10px;
+    margin: 2px;
+    padding: 2px;
     text-align: center;
+}
+
+.video-name {
+    font-size: 25px;
+    padding-top: 10px
+}
+
+.video-release {
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------Footer-------------------------------*/
@@ -244,7 +255,7 @@ body {
     }
     .nav-spacer {
     height: 0;
-}
+    }
      }
 
 /*-------------------------------Keyframes-------------------------------*/
