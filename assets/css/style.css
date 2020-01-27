@@ -74,11 +74,19 @@ body {
     text-align: center;
 }
 
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
 .text-white {
     color: #fafafa;
 }
 
-.section-title {
+.oneline-title {
     padding: 4vh 0vw 2vh 0vw;
     font-weight: 800;
     font-size: 4.7vw;
@@ -141,7 +149,9 @@ body {
 /*-------------------------------Latest music video section-------------------------------*/
 
 .video-container {
-    height: 52vw;
+    height: 55vw;
+    max-width: 900px;
+    max-height: 570px
 }
 
 .video-container iframe {
@@ -160,6 +170,30 @@ body {
 .video-release {
     font-size: 16px;
     margin-bottom: 30px;
+}
+
+/*-------------------------------Latest album section-------------------------------*/
+
+.album-container {
+    width: 80%;
+    height: 100%;
+    /*max-height: 500px;
+    max-width: 500px;*/
+    display: inline-block;
+}
+
+.align-album {
+    text-align: center;
+}
+
+.album-cover {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.track-list {
+    display: block;
 }
 
 /*-------------------------------Footer-------------------------------*/
@@ -232,6 +266,12 @@ body {
 
 /*-------------------------------Media Queries-------------------------------*/
 
+@media (min-width: 576px) {
+    .align-album {
+    text-align: right;
+    }
+     }
+
 @media (min-width: 768px) {
     .navbar {    
     position: relative;
@@ -255,6 +295,9 @@ body {
     }
     .nav-spacer {
     height: 0;
+    }
+    .oneline-title {
+    font-size: 4vw;
     }
      }
 
