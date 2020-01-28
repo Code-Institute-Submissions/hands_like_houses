@@ -90,7 +90,13 @@ body {
     padding: 4vh 0vw 2vh 0vw;
     font-weight: 800;
     font-size: 4.7vw;
-    font-family: "Permanent Marker"
+    font-family: "Permanent Marker";
+}
+
+.quarter-width {
+    width: 25%;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
@@ -177,9 +183,11 @@ body {
 .album-container {
     width: 80%;
     height: 100%;
-    /*max-height: 500px;
-    max-width: 500px;*/
+    max-height: 600;
+    max-width: 600px;
     display: inline-block;
+    padding: 40px;
+    padding-top: 20px;
 }
 
 .align-album {
@@ -193,7 +201,18 @@ body {
 }
 
 .track-list {
-    display: block;
+    /*display: block;*/
+    text-decoration: none;
+    list-style: none;
+    line-height: 180%;
+}
+
+.listing-container {
+    padding-top: 60px;
+}
+
+.listing-container ul {
+    padding: 0;
 }
 
 /*-------------------------------Footer-------------------------------*/
