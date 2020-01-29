@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Permanent+Marker&display=swap:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Caveat|Permanent+Marker&display=swap:400,500,600,700");
 
 /*-------------------------------Band Name/Nav-------------------------------*/
 
@@ -8,13 +8,13 @@
     text-align: center;
 }
 
-#header-small {
+.header-small {
     font-family: "Anton", sans-serif;
     font-size: 20px;
     margin: 0 2px 0 2px;
 }
 
-#header-large {
+.header-large {
     font-family: "Anton", auto;
     margin-top: .5rem;
 }
@@ -90,16 +90,36 @@ body {
     padding: 4vh 0vw 2vh 0vw;
     font-weight: 800;
     font-size: 4.7vw;
-    font-family: "Permanent Marker";
+    font-family: "Permanent Marker", sans-serif;
 }
 
 .quarter-width {
     width: 25%;
     margin-top: 1px;
     margin-bottom: 1px;
+    border-color: #fafafa;
+}
+
+.default-btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #6d5a31;
+    background-color: #6d5a31;
+    color: #fafafa;
+    box-shadow: 1px 1px 1px #292727;
+    margin-bottom: 18px;
+}
+
+.home-article {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
+
+.bg-night {
+    background-color: #000000;
+}
 
 .bg-gold {
     background-color: #866e39;
@@ -162,10 +182,12 @@ body {
 
 .video-container iframe {
     width: 100%;
+    height: 100%;
     display: block;
     margin: 2px;
     padding: 2px;
     text-align: center;
+    border: 0;
 }
 
 .video-name {
@@ -180,6 +202,12 @@ body {
 
 /*-------------------------------Latest album section-------------------------------*/
 
+.album-title {
+    font-family: "Permanent marker", sans-serif;
+    font-size: 37px;
+    padding-top: 30px;
+}
+
 .album-container {
     width: 80%;
     height: 100%;
@@ -190,14 +218,11 @@ body {
     padding-top: 20px;
 }
 
-.align-album {
-    text-align: center;
-}
-
 .album-cover {
     width: 100%;
     height: 100%;
     text-align: center;
+    border: 2px solid #4b4747;
 }
 
 .track-list {
@@ -215,11 +240,81 @@ body {
     padding: 0;
 }
 
+/*-------------------------------Latest gigs-------------------------------*/
+
+.poster-container {
+margin-left: 50px;
+margin-right: 50px;
+border: 1px solid #111111;
+border-radius: 15px;
+overflow: hidden;
+margin-bottom: 30px;
+}
+
+.poster-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ticket-link:hover {
+    text-decoration: none;
+}
+
+.poster-title {
+    font-size: 24px;
+    transform: translateY(-50%);
+    font-family: "Permanent marker", sans-serif;
+}
+
+.poster-text {
+    font-size: 18px;
+    transform: translateY(-10%);
+}
+
+.block {
+    display: block;
+    padding-bottom: 5px;
+}
+
+/*-------------------------------Latest News-------------------------------*/
+
+.news-container {
+    background: rgba(1,1,1,.2);
+    box-shadow: 7px 7px 5px rgba(0,0,0,.5);
+    margin: 5px;
+    margin-bottom: 15px;
+    float: right;
+    font-family: Caveat, Helvetica;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.news-image-container {
+    float: left;
+    background-color: #292727;
+    padding: 5px;
+    margin: 5px;
+}
+
+.news-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.news {
+    font-size: 20px;
+}
+
 /*-------------------------------Footer-------------------------------*/
 
 .footer-container {
     min-height: 120px;
     width: 100%;
+    border-top: 1px solid #575333;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-heading {
@@ -255,15 +350,7 @@ body {
     margin-bottom: 7px;
 }
 
-.mail-list-btn {
-    border-radius: 5px;
-    margin-left: 5px;
-    border: 1px solid #6d5a31;
-    background-color: #6d5a31;
-    color: #fafafa;
-    box-shadow: 1px 1px 1px #292727;
-    margin-bottom: 18px;
-}
+
 
 
 
@@ -288,6 +375,9 @@ body {
 @media (min-width: 576px) {
     .align-album {
     text-align: right;
+    }
+    .poster-title {
+    font-size: 50px;
     }
      }
 
@@ -317,6 +407,21 @@ body {
     }
     .oneline-title {
     font-size: 4vw;
+    }
+    .poster-title {
+    font-size: 24px;
+    }
+     }
+
+    @media (min-width: 992px) {
+        .news-container {
+            height: 100%;
+        }
+    }
+
+     @media (min-width: 1200px) {
+    .poster-title {
+    font-size: 50px;
     }
      }
 
