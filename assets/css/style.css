@@ -399,6 +399,7 @@ margin-bottom: 30px;
 
 .table td, .table th {
     vertical-align: middle;
+    padding-left: 2vw;
 }
 
 .show-btn {
@@ -417,7 +418,7 @@ margin-bottom: 30px;
 
 .show-container {
     margin: 0 auto;
-    width: 95%;
+    width: 98%;
     overflow: auto;
 }
 
