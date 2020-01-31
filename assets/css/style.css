@@ -61,6 +61,10 @@ body {
     margin: 0;
 }
 
+.light-overlay {
+    background-color: rgba(247, 247, 247, 0.5);
+}
+
 .center-text {
     text-align: center;
 }
@@ -151,6 +155,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bg-wood-fixed {
+    background: url("../images/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-wood {
+    background: url("../images/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 /*-------------------------------Main Image section-------------------------------*/
@@ -345,6 +363,7 @@ margin-bottom: 30px;
     padding-top: 5px;
     margin-top: 10px;
     margin-bottom: 50px;
+    border: 1px solid #111111;
 }
 
 .image-container {
@@ -376,6 +395,30 @@ margin-bottom: 30px;
     top: 3%;
     color: #fafafa;
     left: -18%;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.show-btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #6d5a31;
+    background-color: #6d5a31;
+    color: #fafafa;
+    box-shadow: 1px 1px 1px #292727;
+}
+
+.show-list {
+    min-width: 750px;
+    border-color: black;
+}
+
+.show-container {
+    margin: 0 auto;
+    width: 95%;
+    overflow: auto;
 }
 
 /*-------------------------------Media page-------------------------------*/
