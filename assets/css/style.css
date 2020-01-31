@@ -14,9 +14,21 @@
     margin: 0 2px 0 2px;
 }
 
+.header-small-main {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    margin: 0 2px 0 2px;
+}
+
 .header-large {
     font-family: "Anton", auto;
     margin-top: .5rem;
+}
+
+.header-large-main {
+    font-family: "Anton", auto;
+    margin-top: .5rem;
+    font-size: 60px
 }
 
 .band-home-link {
