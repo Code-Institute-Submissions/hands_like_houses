@@ -77,6 +77,10 @@ body {
     background-color: rgba(247, 247, 247, 0.5);
 }
 
+.dark-overlay {
+    background-color: rgba(0,0,0,.8);
+}
+
 .center-text {
     text-align: center;
 }
@@ -478,6 +482,17 @@ margin-bottom: 30px;
     left: 14%;
 }
 
+.gallery-image {
+    height: 200px;
+    width: 300px;
+    margin: 1% 1.5% 3% 1.5%;
+    border: 1px solid #111111;
+}
+
+.gallery-container {
+    text-align: center;
+}
+
 /*-------------------------------Shop page-------------------------------*/
 
 .shop-banner {
@@ -629,6 +644,9 @@ margin-bottom: 30px;
     .album-container {
         padding-right: 10px;
         padding-left: 10px;
+    }
+    .gallery-container {
+    padding: 0 5%;
     }
      }
 

@@ -12,6 +12,10 @@
 	</script>
 	<script src="https://kit.fontawesome.com/61719d41d6.js" crossorigin="anonymous"></script>
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<link href="assets/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+	<script src="assets/fancybox/dist/jquery.fancybox.min.js"></script>
 	<title>Hands Like Houses | Gallery</title>
 </head>
 
@@ -44,7 +48,8 @@
 				<li class="nav-item uppercase nav-item-style"><a class="nav-link" href="band.html">Band</a></li>
 				<li class="nav-item uppercase nav-item-style"><a class="nav-link" href="shows.html">Shows</a></li>
 				<li class="nav-item uppercase nav-item-style"><a class="nav-link" href="media.html">Media</a></li>
-				<li class="active nav-item uppercase nav-item-style"><a class="nav-link" href="gallery.html">Gallery</a></li>
+				<li class="active nav-item uppercase nav-item-style"><a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
 				<li class="nav-item uppercase nav-item-style"><a class="nav-link" href="shop.html">Shop</a></li>
 				<li class="nav-item uppercase nav-item-style"><a class="nav-link" href="bookings.html">Bookings</a></li>
 			</ul>
@@ -56,15 +61,42 @@
 	<div class="container-fluid clearit">
 		<div class="row clearit">
 			<div class="banner-container">
-                <div class="gallery-banner">
-                    <h2 class="page-header uppercase gallery-title">Gallery</h2>
-                </div>
-            </div>
+				<div class="gallery-banner">
+					<h2 class="page-header uppercase gallery-title">Gallery</h2>
+				</div>
+			</div>
 		</div>
 	</div>
-    <div class="container-fluid clearit">
+	<div class="container-fluid clearit">
 		<div class="row clearit bg-gold spacer"></div>
 	</div>
+	<!--Gallery-->
+	<article class="container-fluid bg-concrete-fixed page-article">
+		<div class="row">
+			<div class="col-12 center-text">
+				<h2 class="section-title">Photos</h2>
+			</div>
+		</div>
+		<div class="row">
+            <div class="gallery-container">
+			    <a data-fancybox="gallery" href="assets/images/gallery/band1.jpg"><img class="gallery-image" src="assets/images/gallery/band1.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band2.jpg"><img class="gallery-image" src="assets/images/gallery/band2.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band3.jpg"><img class="gallery-image" src="assets/images/gallery/band3.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band4.jpg"><img class="gallery-image" src="assets/images/gallery/band4.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band5.jpg"><img class="gallery-image" src="assets/images/gallery/band5.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band6.jpg"><img class="gallery-image" src="assets/images/gallery/band6.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band7.jpg"><img class="gallery-image" src="assets/images/gallery/band7.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band8.jpg"><img class="gallery-image" src="assets/images/gallery/band8.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band9.jpg"><img class="gallery-image" src="assets/images/gallery/band9.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band10.jpg"><img class="gallery-image" src="assets/images/gallery/band10.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band11.jpg"><img class="gallery-image" src="assets/images/gallery/band11.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band12.jpg"><img class="gallery-image" src="assets/images/gallery/band12.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band13.jpg"><img class="gallery-image" src="assets/images/gallery/band13.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band14.jpg"><img class="gallery-image" src="assets/images/gallery/band14.jpg"></a>
+                <a data-fancybox="gallery" href="assets/images/gallery/band15.jpg"><img class="gallery-image" src="assets/images/gallery/band15.jpg"></a>
+		    </div>
+        </div>
+	</article>
 	<!--footer-->
 	<footer class="container-fluid footer-container bg-gold clearit text-white">
 		<div class="row clearit">
@@ -84,7 +116,8 @@
 								</a>
 							</li>
 							<li class="list-inline-item">
-								<a href="https://twitter.com/handslikehouses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+								<a href="https://twitter.com/handslikehouses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+									target="_blank">
 									<i class="fab fa-twitter" aria-hidden="true"></i>
 									<div class="sr-only">twitter link</div>
 								</a>
