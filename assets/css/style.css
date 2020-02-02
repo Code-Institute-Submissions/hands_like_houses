@@ -98,10 +98,16 @@ body {
 }
 
 .section-title {
+    font-family: "Permanent Marker", sans-serif;
     padding: 20px 0 45px 0;
     font-weight: 800;
     font-size: 30px;
-    font-family: "Permanent Marker", sans-serif;
+}
+
+.section-title-text {
+    font-family: Caveat, sans-serif;
+    font-size: 20px;
+    transform: translateY(-115%);
 }
 
 .quarter-width {
@@ -182,6 +188,13 @@ body {
 
 .bg-vinyl-fixed {
     background: url("../images/vinyl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-paper-fixed {
+    background: url("../images/paper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -334,8 +347,7 @@ margin-bottom: 30px;
     float: left;
     background-color: #292727;
     padding: 5px;
-    margin: 5px;
-    margin-right: 15px;
+    margin: 5px 15px 10px 0;
 }
 
 .news-image {
@@ -525,7 +537,22 @@ margin-bottom: 30px;
     left: -5%;
 }
 
+.bookings-form {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 40px 5px 0 5px;
+    border: 1px solid #fafafa;
+    border-radius: 15px;
+}
 
+.bookings-form .form-control {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-left: 3px;
+}
 
 /*-------------------------------Footer-------------------------------*/
 
@@ -623,8 +650,14 @@ margin-bottom: 30px;
     .section-title {
     font-size: 48px;
     }
+    .section-title-text {
+    font-size: 30px;
+    }
     .poster-title {
     font-size: 24px;
+    }
+    .bookings-form {
+    width: 70%;
     }
      }
 
@@ -647,6 +680,9 @@ margin-bottom: 30px;
     }
     .gallery-container {
     padding: 0 5%;
+    }
+    .bookings-form {
+    width: 50%;
     }
      }
 
