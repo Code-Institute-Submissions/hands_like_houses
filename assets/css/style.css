@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Caveat|Permanent+Marker&display=swap:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Caveat|Permanent+Marker|Indie+Flower|Josefin+Sans|Roboto+Mono|Teko&display=swap:400,500,600,700");
 
 /*-------------------------------Band Name/Nav-------------------------------*/
 
@@ -144,6 +144,22 @@ body {
     position: relative;
     z-index: 2;
     color: #000000;
+}
+
+.teko {
+    font-family: 'teko', 'Times New Roman';
+}
+
+.indie {
+    font-family: 'indie flower', 'Times New Roman';
+}
+
+.josefin {
+    font-family: 'Josefin Sans', 'Times New Roman';
+}
+
+.mono {
+    font-family: 'roboto mono', 'Times New Roman';
 }
 
 /*-------------------------------Backgrounds-------------------------------*/
@@ -292,11 +308,11 @@ body {
     padding: 0;
 }
 
-/*-------------------------------Latest gigs-------------------------------*/
+/*-------------------------------Latest shows-------------------------------*/
 
 .poster-container {
-margin-left: 50px;
-margin-right: 50px;
+margin-left: 35px;
+margin-right: 35px;
 border: 1px solid #111111;
 border-radius: 15px;
 overflow: hidden;
@@ -320,13 +336,18 @@ margin-bottom: 30px;
 }
 
 .poster-text {
-    font-size: 18px;
-    transform: translateY(-10%);
+    font-size: 20px;
+    transform: translateY(-10px);
 }
 
 .block {
     display: block;
     padding-bottom: 5px;
+}
+
+.ad-date {
+    font-weight: 700;
+    font-size: 25px;
 }
 
 /*-------------------------------Latest News-------------------------------*/
