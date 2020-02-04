@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Caveat|Permanent+Marker|Indie+Flower|Josefin+Sans|Lobster&display=swap:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Caveat|Permanent+Marker|Indie+Flower|Josefin+Sans|Lobster|Courgette&display=swap:400,500,600,700");
 
 /*-------------------------------Band Name/Nav-------------------------------*/
 
@@ -467,6 +467,14 @@ margin-bottom: 30px;
     margin: 5px auto;
     width: 98%;
     overflow: auto;
+}
+
+.table th {
+    color: #724e21;
+}
+
+.table td {
+    font-family: 'courgette', 'Courier New', Courier;
 }
 
 /*-------------------------------Media page-------------------------------*/
