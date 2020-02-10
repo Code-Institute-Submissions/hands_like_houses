@@ -655,77 +655,62 @@ margin-bottom: 30px;
     margin-bottom: 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------------Media Queries-------------------------------*/
 
 @media (min-width: 576px) {
     .align-album {
-    text-align: right;
+        text-align: right;
     }
     .poster-title {
-    font-size: 50px;
+        font-size: 50px;
     }
-     }
+}
 
 @media (min-width: 768px) {
     .navbar {    
-    position: relative;
+        position: relative;
      }
-    #header-small {
-    font-size: 50px;
-     }
-    #header-large {
+    .header-small {
+        font-size: 50px;
+    }
+    .header-large {
     font-size: 80px;
-     }
+    }
     .nav-item-style {
-    font-size: 20px;
-    padding-left: 1vw;
-    padding-right: 1vw;
+        font-size: 20px;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
     .footer-heading {
-    font-size: 20px;
+        font-size: 20px;
     }
     .mail-list-input {
-    width: 250px;
+        width: 250px;
     }
     .nav-spacer {
-    height: 0;
+        height: 0;
     }
     .section-title {
-    font-size: 48px;
+        font-size: 48px;
     }
     .section-title-text {
-    font-size: 30px;
+        font-size: 30px;
     }
     .poster-title {
-    font-size: 24px;
+        font-size: 24px;
     }
     .bookings-form {
-    width: 70%;
+        width: 70%;
     }
     .shop-item {
-    height: 70%;
+        height: 70%;
     }
     .shop-line {
-    padding-bottom: 5px;
+        padding-bottom: 5px;
     }
-     }
+}
 
-    @media (min-width: 992px) {
+@media (min-width: 992px) {
     .news-container {
         height: 100%;
     }
@@ -733,29 +718,29 @@ margin-bottom: 30px;
         padding: 5px 0;
     }
     .page-cut-lg {
-    margin: 0 10vw;
-    box-shadow: 1px 2px 10px #000000;
+        margin: 0 10vw;
+        box-shadow: 1px 2px 10px #000000;
     }
-    }
+}
 
-    @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .poster-title {
-    font-size: 50px;
+        font-size: 50px;
     }
     .media-track-list {
-    line-height: 168%;
+        line-height: 168%;
     }
     .album-container {
         padding-right: 10px;
         padding-left: 10px;
     }
     .gallery-container {
-    padding: 0 5%;
+        padding: 0 5%;
     }
     .bookings-form {
-    width: 50%;
+        width: 50%;
     }
-     }
+}
 
 /*-------------------------------Keyframes-------------------------------*/
 

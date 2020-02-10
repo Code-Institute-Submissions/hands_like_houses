@@ -33,7 +33,7 @@ book them for a show.
 This can be done by going to the "Bookings" tab which contains a userform where you will be able to send the band some details online
 the event as well as leaving your contact details, if the band are interested in the event they will get in touch with you.
 
-The wireframes/initial mockups for the band website can be found in HANDS_LIKE_HOUSES/wireframes
+The wireframes/initial mockups for the band website can be found here: https://github.com/Matte-gtr/hands_like_houses/tree/master/wireframes
 
 ## Features
 Home Page - This contains snippets of the latest videos, albums and news, each with a button at the bottom of the section which will 
@@ -146,6 +146,11 @@ was pushed to the github repository.
 I then went into the github repository, clicked on settings, scrolled down to the Github pages section and selected master branch 
 in the Source dropdown. this deploys the site 
 and when it updates, provides a link to the site.
+
+If you would like to edit or improve this website, type the following into your development evironment terminal after ensuring you are
+in the correct folder:
+git clone "https://github.com/Matte-gtr/hands_like_houses"
+This will copy all of the files into you workspace and allow you to edit them as you see fit.
 
 #### Credits
 youtube - video hosting
